@@ -449,7 +449,7 @@ class Filter:
 
         api_service_name = "youtube"
         api_version = "v3"
-        DEVELOPER_KEY = "AIzaSyAtf0cVlKwq75vDnTa0V-xXQpnQZ5mz7tY"
+        DEVELOPER_KEY = "YOUR KEY"
 
         youtube = googleapiclient.discovery.build(
             api_service_name, api_version, developerKey=DEVELOPER_KEY)
